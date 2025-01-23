@@ -1,0 +1,21 @@
+{
+    "name": "Alfayez Progressive Web App",
+    "short_name": "A PWA",
+    "description": "Progressive Web App that lists games submitted to the A-Frame category in the js13kGames 2017 competition.",
+    "icons": [
+        {
+            "src": "icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "theme_color": "#7f7f7f",
+    "background_color": "#7f7f7f"
+}
