@@ -11,7 +11,18 @@
 	<link rel="manifest" href="js13kpwa.webmanifest">
 </head>
 <body>
-Hi there
-<script src="app.js"></script>
+	Hi there
+	<h1>Welcome to PWA</h1>
+	<button onclick="setAppBadge()">SET APP BADGE</button>
+	<script src="app.js"></script>
+	<script type="text/javascript">
+	function setAppBadge() {
+		if (navigator.setAppBadge) {
+			navigator.setAppBadge(3)
+		}else{
+			alert("App Badge Not SUPPORTED!");
+		}	
+	}
+	</script>
 </body>
 </html>
