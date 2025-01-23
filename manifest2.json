@@ -1,0 +1,48 @@
+{
+	"name": "PWA Testing",
+	"short_name": "PWA T",
+	"description": "PWA Description",
+	"scope": "/PWAT/",
+	"start_url": "/PWAT/index.jsp",
+	"display": "standalone",
+	"background_color": "#FFE9D2",
+	"theme_color": "#FFE1C4",
+	"icons": [
+		{
+			"src": "/PWAT/images/icon192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/PWAT/images/icon512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"purpose": "maskable",
+			"src": "/PWAT/images/icon192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"purpose": "maskable",
+			"src": "/PWAT/images/icon512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"screenshots": [
+        {
+            "src": "/PWAT/images/ss.png",
+            "sizes": "586x1073",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "/PWAT/images/ss.png",
+            "sizes": "586x1073",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ]
+}
