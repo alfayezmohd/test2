@@ -4,10 +4,11 @@
 
 const staticCachesName = 'site-static';
 const assets = [
-	'/PWAT/',
-	'/PWAT/index.jsp',
-	'/PWAT/app.js',
-	'/PWAT/images/icon192.png',
+	'',
+	'index.html',
+	'app.js',
+	'icon192.png',
+	'icon512.png',
 ];
 
 self.addEventListener('install', evt => {
